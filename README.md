@@ -47,6 +47,10 @@ This repository contains a Terraform module to create and manage an **Elastic Ku
    ```bash
    terraform apply -var-file variables.tfvars
    ```
+6. **Destroy the changes**:
+   ```bash
+   terraform destroy -var-file variables.tfvars
+   ```
 This will create the EKS cluster, worker nodes, and install the AWS Load Balancer Controller via Helm.
   
 ## Configuration Variables
