@@ -1,4 +1,4 @@
-# Infrastructure as Code: EKS Cluster Setup on AWS with Terraform and Helm
+# Automated EKS Cluster Deployment on AWS using Terraform and Helm
 
 This repository contains a Terraform module to create and manage an **Elastic Kubernetes Service (EKS)** cluster on AWS, with **Helm** integration for automated application deployment. The module automates the setup of resources such as VPC, subnets, security groups, worker nodes, and the installation of the **AWS Load Balancer Controller** via Helm.
 
